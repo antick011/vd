@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY VALENTINE'S DAY</title>
+    <style>
+        .body {
+            background-color: rgb(243, 162, 176);
+        }
+        
+        .btn {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            color: beige;
+            background-color: rgb(52, 111, 238);
+            margin-left: 150px;
+            margin-top: 50px;
+        }
+        
+        .check {
+            background-position: center;
+            color: blue;
+            text-align: center;
+            width: 300px;
+            margin-left: 21px;
+            margin-top: 20px;
+        }
+        
+        .arrow {
+            width: 50px;
+            height: 80px;
+            margin-left: 145px;
+            margin-top: 40px;
+        }
+    </style>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play()
+        }
+    </script>
+</head>
+
+<body class="body">
+    <div style="width: 60px;">
+        <form action="index.html">
+            <button class="btn" onclick="play()">See</button>
+        </form>
+    </div>
+    <div>
+        <marquee behavior="alternative" direction="up">
+            <img src="arrow.png" alt="arrow" class="arrow">
+        </marquee>
+        <h1 class="check">
+            Click To Check What's Waiting For You
+        </h1>
+    </div>
+
+</body>
+
+</html>
